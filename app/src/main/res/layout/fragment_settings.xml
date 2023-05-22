@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/text_theme"
+        style="@style/text_date_fragment_addTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="15dp"
+        android:text="Theme"
+        />
+
+    <Button
+        android:id="@+id/btn_theme"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="30dp"
+        tools:text="Dark"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/white_or_black"
+        android:backgroundTint="@color/items_background"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

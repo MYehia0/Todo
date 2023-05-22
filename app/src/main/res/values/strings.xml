@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Todo</string>
+    <string name="task_inserted_message">Task Inserted Successfully.</string>
+    <string name="ok">ok</string>
+</resources>
