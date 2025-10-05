@@ -1,6 +1,5 @@
 package com.example.todo.ui.home.list
 
-import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.util.Log
@@ -13,7 +12,6 @@ import com.example.todo.databases.MyDateBase
 import com.example.todo.databases.model.Task
 import com.example.todo.databinding.FragmentListBinding
 import com.example.todo.databinding.ItemTaskBinding
-import com.example.todo.ui.home.Constants
 import com.example.todo.ui.home.showTask
 import com.prolificinteractive.materialcalendarview.CalendarDay
 import java.util.Calendar
@@ -104,6 +102,7 @@ class ListFragment:Fragment() {
         currentDate.set(Calendar.MINUTE,0)
         currentDate.set(Calendar.SECOND,0)
         currentDate.set(Calendar.MILLISECOND,0)
+        currentDate.set(Calendar.AM_PM,0)
     }
 
     override fun onResume() {

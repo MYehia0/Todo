@@ -4,7 +4,6 @@ import android.app.AlertDialog
 import android.app.DatePickerDialog
 import android.content.DialogInterface
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -23,6 +22,7 @@ class AddTaskBottomSheetFragment:BottomSheetDialogFragment() {
         currentDate.set(Calendar.MINUTE,0)
         currentDate.set(Calendar.SECOND,0)
         currentDate.set(Calendar.MILLISECOND,0)
+        currentDate.set(Calendar.AM_PM,0)
     }
     private var Month = currentDate.get(Calendar.MONTH) + 1
     override fun onCreateView(

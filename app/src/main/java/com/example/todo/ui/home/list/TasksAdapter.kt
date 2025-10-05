@@ -4,11 +4,8 @@ import android.graphics.Color
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.core.graphics.blue
-import androidx.core.graphics.green
 import androidx.recyclerview.widget.RecyclerView.Adapter
 import com.example.todo.R
-import com.example.todo.databases.MyDateBase
 import com.example.todo.databases.model.Task
 import com.example.todo.databinding.ItemTaskBinding
 import com.zerobranch.layout.SwipeLayout

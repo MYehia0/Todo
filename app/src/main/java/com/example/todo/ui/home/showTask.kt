@@ -20,7 +20,6 @@ class showTask:BottomSheetDialogFragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentShowTaskBinding.inflate(inflater,container,false)
-
         return binding.root
     }
     lateinit var task: Task

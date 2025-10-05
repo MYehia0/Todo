@@ -1,14 +1,11 @@
 package com.example.todo.ui.home.settings
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
-import com.example.todo.R
-import com.example.todo.databinding.ActivityMainBinding
 import com.example.todo.databinding.FragmentSettingsBinding
 
 class SettingsFragment:Fragment() {
